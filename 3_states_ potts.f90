@@ -7,7 +7,7 @@ module system
  integer, allocatable :: nbor(:,:)
  integer :: enbor, vect       
  real(8) ::  bp
- real(8), allocatable :: m_dim(:),clusters(:)
+ integer, allocatable :: clusters(:)
  real(8) :: temp,arm=0.d0,asm=0.d0,m_4=0.d0,binder=0.d0,engy=0.d0,engy2=0.d0
  real(8) :: test0val
  real(8),parameter :: pi2=2.d0*3.14159265358979323846
